@@ -1,1 +1,1 @@
-# SID
+learn πthon 
