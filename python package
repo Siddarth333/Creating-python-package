@@ -1,0 +1,2 @@
+from . import file1(module)
+from . import file2(module)
