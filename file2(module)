@@ -1,0 +1,18 @@
+//function to check for palindrome 
+def palindrome(x):
+    if x==x[::-1]:
+        return "palindrome"
+    else:
+        return "not a palindrome"
+        
+//function to check for armstrong number
+def armstrong(num):
+    n=str(num)
+    l=len(n)
+    sum=0
+    for i in n:
+        sum+=int(i)**l
+    if sum==num:
+        return "armstrong"
+    else :
+        return "not a armstrong"
