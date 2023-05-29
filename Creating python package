@@ -1,20 +1,21 @@
+//function to check a number is prime
 def prime(n):
     for i in range(2,n):
         if n%i==0:
             return "not a prime"
     return "prime"
 
-def binserch(n,arr,k):
-    arr.sort()
-    l=0
-    h=n-1
-    for i in range(l,h+1) :
-        m=(l+h)/2
+//function to search a element in the list
+def binsearch(arr,k,l,h):
+    while h>=l:
+        m=(l+h)//2
         if k==arr[m]:
             return m
         elif k<arr[m]:
             h=m-1
         else :
             l=m+1
-
+    else:
+        return -1
+    
 
