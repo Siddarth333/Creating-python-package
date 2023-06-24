@@ -1,1 +1,1 @@
-basic πthon 
+basic python 
