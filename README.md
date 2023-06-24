@@ -1,1 +1,1 @@
-learn πthon 
+basic πthon 
